@@ -1,0 +1,684 @@
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.navbar .sign-up {
+  position: absolute;
+  left: 96%;
+  top: 18%;
+  max-width: 40px;
+  max-height: 60px;
+}
+
+.navbar .sign-up:hover {
+  border-bottom: 3px solid #111;
+  padding-bottom: 3px;
+}
+
+.navbar .shopping-icon {
+  position: absolute;
+  left: 85%;
+}
+
+.navbar .search-icon {
+  position: absolute;
+  left: 90%;
+}
+
+.navbar #logo {
+  position: relative;
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.navbar .nav-link {
+  color: #333 !important;
+  font-size: 18px;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 3px solid #111;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.navbar .chevDown {
+  font-size: 10px;
+}
+
+.navbar #dropdownMenuButton {
+  position: absolute;
+  left: 75%;
+  bottom: 15%;
+}
+
+.navbar .dropdown {
+  position: static !important;
+}
+
+.navbar .dropdown-menu {
+  margin-top: 0px !important;
+  width: 100% !important;
+}
+
+.navbar .dropdown-multicol {
+  background: #e6e6e6;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.navbar .dropdown-multicol div.dropdown-col {
+  position: relative;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 16%;
+}
+
+.navbar .dropdown-item {
+  padding: 15px 0;
+  font-size: 18px;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #e6e6e6;
+  text-decoration: underline;
+}
+
+.navbar .sub-header {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 0;
+  margin: 0;
+  color: #111;
+}
+
+.covid-banner {
+  background-color: #0067b8;
+  color: #fff;
+  padding: 12px 36px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.covid-banner:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.carousel .carousel-control {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+.carousel-control {
+  padding: 16px;
+  color: #404040;
+  font-size: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50%;
+  background-color: #fafafa;
+}
+
+.carousel-control:hover {
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-next {
+  right: -5%;
+}
+
+.carousel-control-prev {
+  left: -5%;
+}
+
+.carousel-indicators li {
+  margin: 0 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px #000 solid;
+}
+
+.carousel-indicators .active {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #000;
+  border: 1px #000 solid;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  z-index: 20;
+}
+
+.carousel-content h3 {
+  font-size: 2rem;
+}
+
+.carousel-content p {
+  font-size: 1.3rem;
+}
+
+.card {
+  border: none;
+}
+
+.card .card-body {
+  padding: 60px 0;
+}
+
+.card .card-text {
+  font-size: 20px;
+}
+
+.card .card-link {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card .card-icon {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.jumbotron {
+  background: url("./img/xbox-image.png");
+  color: #fff;
+  height: 560px;
+}
+
+.jumbotron .jumbotron-text {
+  position: relative;
+  padding-top: 120px;
+  left: 12%;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+.jumbotron .order-btn-light {
+  margin-right: 10px;
+}
+
+.socials .socials-header {
+  color: #555;
+  font-weight: 400;
+}
+
+.socials .social-icons:hover {
+  opacity: 0.8;
+}
+
+.footer {
+  background-color: #e6e6e6;
+}
+
+.footer .footer-header {
+  color: #333;
+}
+
+.footer .footer-list {
+  list-style-type: none;
+  padding: 30px 0;
+}
+
+.footer .footer-item {
+  padding: 10px 0;
+}
+
+.footer .footer-item a {
+  color: #555;
+}
+
+.secondary-footer .language-icon {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+.secondary-footer .language-section {
+  color: #333;
+  font-size: 14px;
+  margin-right: 80px;
+}
+
+.secondary-footer .secondary-footer-links {
+  color: #333;
+  font-size: 14px;
+  padding: 0 10px;
+  margin-left: 25px;
+}
+
+.btn-light {
+  background-color: #fff;
+  padding: 12px 28px;
+  font-weight: 500;
+  color: #000;
+  font-size: 18px;
+  border: 2px solid transparent;
+  border-radius: 0;
+}
+
+.btn-light:hover {
+  text-decoration: underline;
+}
+
+.btn-light.effect-2 {
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+
+.btn-light.effect-2:before {
+  content: "\E76C";
+  font-family: FabricMDL2Icons;
+  font-size: 15px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 110%;
+  width: 40px;
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+  opacity: 1;
+}
+
+.btn-light.effect-2:hover {
+  text-indent: -10px;
+  -webkit-text-decoration: underline #fff;
+          text-decoration: underline #fff;
+  color: #fff;
+}
+
+.btn-light.effect-2:hover:before {
+  opacity: 1;
+  text-indent: 10px;
+}
+
+.btn-dark {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #000;
+  padding: 12px 28px;
+  width: 200px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.btn-dark.effect-1 {
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+
+.btn-dark.effect-1:before {
+  content: "\E76C";
+  font-family: FabricMDL2Icons;
+  font-size: 15px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 110%;
+  width: 40px;
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+  opacity: 1;
+}
+
+.btn-dark.effect-1:hover {
+  text-indent: -10px;
+  -webkit-text-decoration: underline #fff;
+          text-decoration: underline #fff;
+  color: #fff;
+}
+
+.btn-dark.effect-1:hover:before {
+  opacity: 1;
+  text-indent: 10px;
+}
+
+@media (max-width: 570px) {
+  .navbar {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar .nav-link {
+    padding-bottom: 10px;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: none;
+    padding-bottom: 10px;
+  }
+  .navbar .navbar-toggler {
+    position: relative;
+    left: -85%;
+    border: none;
+    color: #000;
+  }
+  .navbar .nav-link {
+    border-bottom: none;
+  }
+  .navbar #logo {
+    position: relative;
+    left: 70%;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .navbar .dropdown {
+    display: none;
+  }
+  .navbar .sm-nav {
+    background: #e6e6e6;
+    padding: 10px 8px;
+    margin: 0;
+    font-size: 16px;
+    border: 1px solid #d4d2d2;
+  }
+  .navbar .sm-nav:hover {
+    border: 1px solid #d4d2d2;
+    padding: 10px 8px;
+    margin: 0;
+  }
+  .navbar .search-icon {
+    position: relative;
+    left: -50%;
+  }
+  .navbar .shopping-icon {
+    display: none;
+  }
+  .navbar .sign-up {
+    position: relative;
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .navbar .sign-up:hover {
+    border-bottom: none;
+    padding: 0;
+  }
+  .covid-banner {
+    background-color: #0067b8;
+    color: #fff;
+    padding: 18px;
+    font-size: 14px;
+    margin: 0;
+  }
+  .covid-banner:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+  }
+  .carousel-item img {
+    height: 220px;
+  }
+  .carousel-item .carousel-content {
+    position: relative;
+    left: 0;
+    text-align: center;
+    padding: 80px 0;
+    background-color: #d9d9d9;
+    height: 300px;
+  }
+  .carousel-item .carousel-content h3 {
+    font-size: 20px;
+  }
+  .carousel-item .carousel-content p {
+    font-size: 16px;
+  }
+  .carousel-item .carousel-content btn {
+    position: relative;
+  }
+  .icon-list {
+    text-align: left !important;
+    margin: 0;
+    padding: 0;
+  }
+  .icon-list img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+  }
+  .icon-list h5 {
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+  }
+  .icon-list br {
+    display: none;
+  }
+  .jumbotron {
+    background: url("./img/xbox-image.png") center center/cover;
+    color: #fff;
+    height: 360px;
+  }
+  .jumbotron .jumbotron-text {
+    position: relative;
+    left: 5%;
+    top: -40%;
+  }
+  .jumbotron .jumbotron-text h3 {
+    font-size: 20px;
+  }
+  .jumbotron .jumbotron-text p {
+    font-size: 16px;
+  }
+  .jumbotron .jumbotron-text button {
+    position: relative;
+    left: -6%;
+    top: 0;
+  }
+  .secondary-footer .language-icon {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+  }
+  .secondary-footer .language-section {
+    color: #333;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .secondary-footer .secondary-footer-links {
+    color: #333;
+    font-size: 10px;
+    padding: 0 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1600px;
+  }
+}
+
+@media (max-width: 1321px) {
+  .navbar .dropdown-item {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar .nav-link {
+    font-size: 16px;
+  }
+  .navbar .dropdown {
+    display: none;
+  }
+  .carousel .carousel-content p {
+    font-size: 16px;
+  }
+  .jumbotron {
+    background: url("./img/xbox-image.png") center center/cover;
+    color: #fff;
+    height: 360px;
+  }
+  .jumbotron .jumbotron-text {
+    position: relative;
+    left: 5%;
+    top: -40%;
+  }
+  .jumbotron .jumbotron-text h3 {
+    font-size: 20px;
+  }
+  .jumbotron .jumbotron-text p {
+    font-size: 14px;
+  }
+  .jumbotron .jumbotron-text button {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 570px) {
+  .navbar-toggler {
+    border: none;
+    color: #000;
+  }
+  .navbar {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar .nav-link {
+    padding-bottom: 10px;
+  }
+  .navbar .nav-link:hover {
+    border-bottom: none;
+    padding-bottom: 10px;
+  }
+  .navbar .navbar-toggler {
+    position: relative;
+    left: -92%;
+  }
+  .navbar .nav-link {
+    border-bottom: none;
+  }
+  .navbar #logo {
+    position: relative;
+    left: 90%;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .navbar .dropdown {
+    display: none;
+  }
+  .navbar .sm-nav {
+    background: #e6e6e6;
+    padding: 10px 8px;
+    margin: 0;
+    font-size: 16px;
+    border: 1px solid #d4d2d2;
+  }
+  .navbar .sm-nav:hover {
+    border: 1px solid #d4d2d2;
+    padding: 10px 8px;
+    margin: 0;
+  }
+  .navbar .search-icon {
+    position: relative;
+    left: -62%;
+  }
+  .navbar .shopping-icon {
+    position: relative;
+    left: 10%;
+  }
+  .navbar .sign-up {
+    position: relative;
+    left: 120%;
+    top: 0;
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .navbar .sign-up:hover {
+    border-bottom: none;
+    padding: 0;
+  }
+  .carousel-item img {
+    height: 220px;
+  }
+  .carousel-item .carousel-content {
+    position: relative;
+    left: 0;
+    text-align: center;
+    padding: 80px 0;
+    background-color: #d9d9d9;
+    height: 300px;
+  }
+  .carousel-item .carousel-content h3 {
+    font-size: 20px;
+  }
+  .carousel-item .carousel-content p {
+    font-size: 16px;
+  }
+  .carousel-item .carousel-content btn {
+    position: relative;
+  }
+  .jumbotron {
+    background: url("./img/xbox-image.png") center center/cover;
+    color: #fff;
+    height: 360px;
+  }
+  .jumbotron .jumbotron-text {
+    position: relative;
+    left: 5%;
+    top: -40%;
+  }
+  .jumbotron .jumbotron-text h3 {
+    font-size: 20px;
+  }
+  .jumbotron .jumbotron-text p {
+    font-size: 12px;
+  }
+  .jumbotron .jumbotron-text button {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 330px) {
+  .navbar .search-icon {
+    position: relative;
+    left: -40%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

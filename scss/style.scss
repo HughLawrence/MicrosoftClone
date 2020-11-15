@@ -1,0 +1,381 @@
+@import "./media-queries";
+
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+//NAVBAR
+
+.navbar {
+  .sign-up {
+    position: absolute;
+    left: 96%;
+    top: 18%;
+    max-width: 40px;
+    max-height: 60px;
+
+    &:hover {
+      border-bottom: 3px solid #111;
+      padding-bottom: 3px;
+    }
+  }
+
+  .shopping-icon {
+    position: absolute;
+    left: 85%;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 90%;
+  }
+
+  #logo {
+    position: relative;
+    max-width: 140px;
+    max-height: 140px;
+  }
+
+  .nav-link {
+    color: #333 !important;
+    font-size: 18px;
+
+    &:hover {
+      border-bottom: 3px solid #111;
+      padding-bottom: 5px;
+
+      color: #333;
+    }
+  }
+  .chevDown {
+    font-size: 10px;
+  }
+
+  #dropdownMenuButton {
+    position: absolute;
+    left: 75%;
+    bottom: 15%;
+  }
+
+  .dropdown {
+    position: static !important;
+  }
+
+  .dropdown-menu {
+    margin-top: 0px !important;
+    width: 100% !important;
+  }
+
+  .dropdown-multicol {
+    background: #e6e6e6;
+    font-size: 18px;
+    word-wrap: break-word;
+
+    div.dropdown-col {
+      position: relative;
+      padding: 20px;
+      display: inline-block;
+      vertical-align: top;
+      width: 16%;
+    }
+  }
+
+  .dropdown-item {
+    padding: 15px 0;
+    font-size: 18px;
+  }
+
+  .dropdown-item:hover {
+    background-color: #e6e6e6;
+    text-decoration: underline;
+  }
+
+  .sub-header {
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 0;
+    margin: 0;
+
+    color: #111;
+  }
+}
+
+//COVID BANNER
+
+.covid-banner {
+  background-color: #0067b8;
+  color: #fff;
+  padding: 12px 36px;
+  font-size: 18px;
+  margin: 0;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+//CAROUSEL
+
+.carousel .carousel-control {
+  visibility: hidden;
+}
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+.carousel-control {
+  padding: 16px;
+  color: #404040;
+  font-size: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50%;
+  background-color: #fafafa;
+
+  &:hover {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.carousel-control-next {
+  right: -5%;
+}
+
+.carousel-control-prev {
+  left: -5%;
+}
+
+.carousel-indicators li {
+  margin: 0 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px #000 solid;
+}
+
+.carousel-indicators .active {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: #000;
+  border: 1px #000 solid;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+
+  z-index: 20;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+//CARD SECTION
+
+.card {
+  border: none;
+
+  .card-body {
+    padding: 60px 0;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+
+  .card-link {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .card-icon {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+//XBOX SECTION
+
+.jumbotron {
+  background: url("./img/xbox-image.png");
+  color: #fff;
+  height: 560px;
+
+  .jumbotron-text {
+    position: relative;
+    padding-top: 120px;
+    left: 12%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .order-btn-light {
+    margin-right: 10px;
+  }
+}
+
+//SOCIALS
+
+.socials {
+  .socials-header {
+    color: #555;
+    font-weight: 400;
+  }
+
+  .social-icons:hover {
+    opacity: 0.8;
+  }
+}
+
+//FOOTER
+
+.footer {
+  background-color: #e6e6e6;
+
+  .footer-header {
+    color: #333;
+  }
+
+  .footer-list {
+    list-style-type: none;
+    padding: 30px 0;
+  }
+
+  .footer-item {
+    padding: 10px 0;
+  }
+
+  .footer-item a {
+    color: #555;
+  }
+}
+
+.secondary-footer {
+  .language-icon {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+  }
+  .language-section {
+    color: #333;
+    font-size: 14px;
+    margin-right: 80px;
+  }
+
+  .secondary-footer-links {
+    color: #333;
+    font-size: 14px;
+    padding: 0 10px;
+    margin-left: 25px;
+  }
+}
+
+//add these to variables or a mixin?
+
+.btn-light {
+  background-color: #fff;
+  padding: 12px 28px;
+  font-weight: 500;
+  color: #000;
+  font-size: 18px;
+  border: 2px solid transparent;
+  border-radius: 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.btn-light.effect-2 {
+  transition: all 0.2s linear 0s;
+
+  &:before {
+    content: "\E76C";
+    font-family: FabricMDL2Icons;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 110%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+    opacity: 1;
+  }
+
+  &:hover {
+    text-indent: -10px;
+    text-decoration: underline #fff;
+    color: #fff;
+
+    &:before {
+      opacity: 1;
+      text-indent: 10px;
+    }
+  }
+}
+
+.btn-dark {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: #000;
+  padding: 12px 28px;
+  width: 200px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.btn-dark.effect-1 {
+  transition: all 0.2s linear 0s;
+
+  &:before {
+    content: "\E76C";
+    font-family: FabricMDL2Icons;
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 110%;
+    width: 40px;
+    transition: all 0.2s linear 0s;
+    opacity: 1;
+  }
+
+  &:hover {
+    text-indent: -10px;
+    text-decoration: underline #fff;
+    color: #fff;
+
+    &:before {
+      opacity: 1;
+      text-indent: 10px;
+    }
+  }
+}
